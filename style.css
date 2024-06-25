@@ -1,54 +1,13 @@
-* {margin: 0;}
 html {
-  font-family: Arial, sans-serif;
-  width: 1000px;
-  margin: 0 auto;
+     font-family: Arial, sans-serif;
 }
 
-.display p.highlight {
-  font-weight: 700;
-  color: blue;
-}
-.display p.ex1 {display: none;}
-.display p.ex2 {display: inline;}
-.display p.ex3 {display: block;}
-.display p.ex4 {display: inline-block;}
-
-.position div {
-  padding: 10px;
-  border: 3px solid #ad2121;
-}
-.position div.static {position: static;}
-.position div.relative {
-  position: relative;
-  left: 30px;
-}
-.position div.fixed {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 300px;
-}
-.position div.relative-container {
-  position: relative;
-  width: 400px;
-  height: 200px;
-} 
-.position div.absolute {
-  position: absolute;
-  top: 80px;
-  right: 0;
-  width: 200px;
-  height: 100px;
+body {
+     width: 60vw;
+     margin: 0 auto;
 }
 
-.flex-container {
-  display: flex;
-  background-color: DodgerBlue;
-}
-.flex-container > div {
-  background-color: #f1f1f1;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
+a {
+     color: blue;
+     text-decoration: none;
 }
